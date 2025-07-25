@@ -1,55 +1,45 @@
- /* all common css start */
  *{
     margin: 0%;
     padding: 0%;
-}
- /* all common css  end*/
-
-ul,ol{
+ }
+ ul,ol{
     list-style-type: none;
-}
-a{
+ }
+ a{
     text-decoration: none;
-}
-.header{
-     padding: 30px 0;
-    
-}
-.contioner{
-
-}
-.menu{
-    
+ }
+ #header{
+    padding: 20px 0;
+    /* background-color: aqua; */
+ }
+ #contioner{
     width: 1140px;
     margin: 0% auto;
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
-}
-.menu ul li{
-    display: inline-block; 
-       padding: 20px 27px;   
-}
-.menu ul li a{
-
-   color: rgba(71, 71, 71, 1);
-   font-weight: 400;
-
-   font-family: Open Sans ;
-}
-.menupart{
-    display: flex;
-}
-.menu .one{
- background-color: #fd6e0a;    
-    padding: 20px;
-    border-radius: 7%;
-    color: white;
-     font-family: Open Sans ;
+ }
+ .menu{
+     height: 100px;
+     /* background-color: aliceblue; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .menupart ul{
+    display: flex;  
+ }
+ .menupart ul li {
+    padding: 0% 27px;
+ }
+  .menupart ul li a{
+    color: #474747;
+     font-family: Open Sans;
      font-size: 20px;
-     font-weight: 700;
-}
-
-
-
-
+  }
+  .button a{
+    background-color: #fd6e0a;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 20%;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Open Sans;
+  }
