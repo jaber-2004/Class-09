@@ -22,7 +22,8 @@
      align-items: center;
  }
  .menupart ul{
-    display: flex;  
+    display: flex; 
+    transition: .4s; 
  }
  .menupart ul li {
     padding: 0% 27px;
@@ -40,4 +41,7 @@
     font-weight: 600;
     font-size: 20px;
     font-family: Open Sans;
+  }
+  .menupart ul li a:hover{
+   color:yellow;
   }
