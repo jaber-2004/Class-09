@@ -32,16 +32,17 @@
     color: #474747;
      font-family: Open Sans;
      font-size: 20px;
+     transition: .4s;
   }
   .button a{
     background-color: #fd6e0a;
     color: #fff;
-    padding: 15px 20px;
-    border-radius: 20%;
+    padding: 20px 27px;
+    border-radius: 10%;
     font-weight: 600;
     font-size: 20px;
     font-family: Open Sans;
   }
   .menupart ul li a:hover{
-   color:yellow;
+   color:orange;
   }
